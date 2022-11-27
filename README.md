@@ -3,7 +3,7 @@
 Durante la scrittura del codice mantieni una scrittura ordinata, segui il format di coding ufficiale Google:
 [Google Styleguide Java](https://google.github.io/styleguide/javaguide.html)
 
-**Importante**: usa la documentazione fino a *Java SE 8* compreso, [qui trovi la documentazione](https://docs.oracle.com/javase/8/docs/)
+**Importante**: usa la documentazione fino a *Java SE 8* compreso, la puoi trovare [qui](https://docs.oracle.com/javase/8/docs/)
 
 
 ### 0. Preparazione materiale necessario
