@@ -60,3 +60,5 @@ guido.marchetto@polito.it, Guido, Marchetto, *********, 19850202
 fabrizio.lamberti@polito.it, Fabrizio, Lamberti, *********, 19800101
 fabio.garcea@polito.it, Fabio, Garcea, *********, 19930917, ssh-rsaAAABBBCCC, RASPRIVATE---MIIBOgIBAAJBAKj34---ENDRSA
 Elenco processi Pending
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.Collection.iterator()" because the return value of "cluster.Cluster.elencoProcessiPending()" is null
+	at Esempio.main(Esempio.java:89)
