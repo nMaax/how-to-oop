@@ -1,0 +1,16 @@
+.gitignore
+.metadata/
+
+basic/
+advanced/
+inheritance/
+
+*/.settings/
+*/bin/
+*/.classpath
+*/.DS_Store
+*/.project
+*.class
+
+sampleFile.txt
+Esercitazione4_Cluster_testo/

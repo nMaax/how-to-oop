@@ -1,0 +1,362 @@
+Cose da effettuare dopo la consenga con i test
+
+	- estendere le stringhe e gli integer inserendo nuovi metodi, come removeLastChar e abs() etc
+	- provare a usare i toString()
+	
+To-DO:
+
+[ ] rimuovi getUtenti da ecommerce, lo hai usato solo per il breakcode
+[ ] rimuovi i toString per non far sembrare che restituisci una stringa invece dei riferimenti quando richiami le funzioni dentro dei sopln
+[x] Contrassegna le domande "applicate" nel codice con una V
+[x] RIGURDA TUTTI I METODI DOVE SI MODIFICANO LE QUANTITA DI PRODOTTI, dato che la gestione è cambiata
+[x] assicurati che una persona non possa mai mandare il nuemro di unita di un prodtto sotto lo 0
+[x] Completa consegne() e nuovaConsegnaPrime()
+[x] usa split() invece di parseString();
+[N] ricolloga il toString di Consegna nei singoli Prime e Standard, forse puoi anche non salvare la String typeConsegna ma fare solo un metodo getType()
+[N] ti va di creare te il tuo metodo Compare(), Substring(), toArray() etc ? Forse all'esame non potrai cercarli su internet
+		Nota che, involontariamente, hai giá creato un metodo String.split()
+[N] prova a togliere l'if dentro il for in nuovoUtente() usato in Acquisto()
+[x] riordina la classe acquisto
+[x] nei costruttori di Acquisto prova a togliere le righe che possono essere esguite dal metodo creato in Ecommerce per convertire le stringhe nelle sue componenti
+[x] Rendi i getter e setter più elaborati
+	No, (1) potrebbero falsificare i risultati (2) il problema non lo richiede (3) potrebbero tornare utili per nella riconsegna
+[ ] debugga, ottimizza, DRY, KISS e controlla 
+	[ ] segna le costanti di default come static a inizio classi
+	[ ] riutilizza il costruttore piú largo per fare quelli piú stretti
+	[X] gli ultrimi 3 metodi della p2
+	[ ] gli ultimi 3 metodi della p3
+	[X] In prime puoi togliere delle righe con getCostoPrime() dentro il costruttore
+		si, fatto
+	[ ] togli i getter (inutili) usati dentro altri metodi della classe stessa (?) 
+	[ ] Che ne pensi di togliere un po' di attributi dalle varie classi ma lasciare comunque dei getter e setter che fanno quel lavoro? Meno ridontante e piú semplice!
+		Tipo in consegna puoi togliere il costoSpedizione che é ridondante (essendo uguale a acquisto.getCosto()) semmai
+		ti fai un getter a posta che scava dentro Acquisto e nel caso di prime fai un override utilizzando getCostoPrime()
+		
+		Cosa ne trarrei? 
+			- piu ordine nel codice, niente ridondanze
+				Pero se per esempio uno cambia il prezzo di un prodtto varia pure il prezzo delle consegne passate!
+			- Ok per le consegne ho trovato la quadra, considera che certe volte E'NECESSARIO fare delle copie cosí che i valori non cambino nel tempo
+			
+	[N] Metti privati i setter e getter che non devono essere accessibili al resto del codice
+		No, se ne avessi bisogno in futuro non devo modificare anche la riga da private a public
+	[X] Normalizza il codice con dei nomi migliori
+		X Tutti i return devono chiamarsi output
+		Ordine != Consegna, 
+			Ordine: insieme di oggetti che sono stati acquistati
+			Consegna: atto del trasporto stesso
+		Spesa != Costo
+			Spesa: costo per il cliente
+			Costo: diminuzione di soldi
+		unita != prodotti
+			In 500 iphone e 300 ipad ci sono 2 prodotti, 500 unita di iphone, 300 unita di ipad e 800 unita totali
+[x] rimetti a posto la javadoc un po' ovunque
+[x] rimetti a posto la gestione del numero massimo di prodotti :)
+[x] in output al formato di descriviConsenga usa il formato ", " 
+
+
+Note:
+
+- Gestione dei tipi di prodotti in Ecommerce: 
+		1. Genero un array con lunghezza bigM
+		2. Gestico l'array come fosse una lista --> forse nelle lezioni successive?
+			Uso gli ArrayList :) nel pdf non specifica quale struttura dati si debba usare!
+			
+- Esattamente come nella scorsa consegna (network), ingoro il fatto che uno stesso prodotto possa essere in più ecommerce, li considererò
+	come doppioni
+
+Domande:
+
+ V in descriviConsegna() prende solo il numero (3) o lettera+numero (P3)?
+	P3, vedi Esempio.java
+	
+ V in nuovaConsegna() Cercando di attivare una consegna per un acquisto non definito il metodo non sortisce alcun effetto. il valore di ritorno é null?
+	si
+
+ V in acquisto() dobbiamo controllare il caso in cui ci sia un acquisto con un valore non positivo (pari a 0 o negativo)? Perché al momento é possibile fare un tale acquisto e risulta true nell'array di booleani, Non c'é forse il rischio che con un acquisto di quantitá negativa si possa incrementare le scorte del prodotto? eventualmente anche sopra la soglia massima?1
+ 	Si devi controllare!
+ 
+ V in nuovoProdotto() dobbiamo controllare il caso in cui ci sia una quantitá o prezzo con un valore non positivo (pari a 0 o negativo)?
+	si
+	
+ V in Acquisti() cosa facciamo se l'utente non esiste? tutto l'array va a false?
+	si
+ 
+ V possiamo apportare modifiche alla classe String o altre classi native del JDK?
+	volendo si, con extends
+	
+ V In cercaProdotti() e otherParseString() usi .toArray(), devi passare per parametro un array lungo correttamente o il metodo lo aggiusta in automatico?
+	Non è necessario, basta che sia o lungo uguale o lungo un valore minore, tuttavia è consigliabile inviarlo con la stessa lunghezza
+	
+ V in nuovoUtente(), se creo un utente nuovo, lo resituisco?
+	si
+	
+ V in nuovoProdotto() devo anche aggiornare la descrizione etc se il prodotto è gia presente?
+ 	non modificare la descrizione e il resto
+
+ V i getter e setter di Ecommerce devono essere plain o un attimo elaborati? Devo mettere dei controlli sul valore del dato stesso?
+	Elaborati	
+
+ V come Gestisco le relazioni 1-N, N-N etc in OOP? Come nelle basi di dati?
+ 	Come ti viene meglio, se per vari motivi, devi usare una struttura dati interna a una delle due classi che contiene l'altra vai con quella
+ 	Altrimenti applicchi la logica delle basi di dati come nella domanda
+ 
+ V nuovoProdotto() deve restituire l'dentificativo o il riferimento di memoria?
+	Restituisce l'oggetto in se per se (quindi il suo riferimento di memoria), infatti le firme hanno come valore di ritorno Prodotto
+		
+ V Possono esistere acquisti senza consegna?
+	Si
+
+ V ma perché si possono fare delle classi innestate ad altre classi? Non dovrebbe essere illegale per la regola (one class per file, one file per class)?
+	per avere una classe con una serie di elementi utile solo alla classe in cui si trova, come una classe "ausiliaria", roba molto specifica
+
+*****
+
+Scheletro e firme: https://pastebin.com/PDxF98Em
+
+*****
+
+Guidelines
+
+HowToOOP
+ 
+
+Java Code Style Guidelines: https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html
+ 
+ 
+x.  Preparazione materiale necessario
+	Effettua il login su Polito OOP e scarica lo scheletro
+	Crea un file todo.txt nel progetto(dal termine "to-do list") dove salverai i vari appunti di cui avrai bisogno durante lo sviluppo del codice
+	Copia lo scheletro su Pastebin (https://pastebin.com/) e salva il relativo link su todo.txt (ci servirá dopo)
+	Carica le bozze che sviluppi in classe su il tuo drive service preferito o usa gli elaboarti sul portale della didattica
+ 
+x.	Analisi del problema
+	Leggi TUTTO il pdf e sottolinea:
+		- i vincoli imposti (specialmente quelli nascosti o molto specifici)
+		- i formati di output che ti chiede l'esercizio
+ 
+x.	Schema mentale
+	Abbozza velocemente su un foglio di carta una struttura generale (se necessario) e cerca di sviluppare un idea generale di programma prima di iniziare
+ 
+	|| 	REGOLA D'ORO: PRIMA SI PIANIFICA IL PROGRAMMA CHE VOGLIAMO CREARE E DOPO E SOLO DOPO SI SCRIVE IL CODICE
+ 
+x.	Base del programma
+	Genera le varie classi, attributi, getter, setter di base, richiesti e non, tipicamente questo step coincide con le richieste
+	che vengono fatte nella prima parte del pdf
+ 
+4.	Elementi, metodi e algoritmi avanzati del programma
+ 
+	Questo é senza ombra di dubbio lo step piú importante, leggilo bene
+ 
+ 
+	|| REGOLA D'ORO DI PRIMA MA DETTA UN'ALTRA VOLTA: PRIMA SI PIANIFICA IL METODO CHE VOGLIAMO CREARE E DOPO E SOLO DOPO SI SCRIVE IL CODICE
+ 
+	|| DICIAMOLO ANCHE LA TERZA VOLTA CHE NON FA MALE:
+ 
+	   ╔═══════════════════════════════════╗
+	   ║PRIMA SI PIANIFICA E DOPO SI SCRIVE║
+	   ╚═══════════════════════════════════╝
+ 
+	Ma come si pianifica? Con carta e penna, disegnando, schematizzando, scrivendo pseudocodice e pianificando ciò che il computer dovrà fare
+	Anche in maniera grossolana, serve per farci un idea dei vari step che dovrá fare il programma per non dover improvvisare dopo e finire
+	in un vortice dal quale non riusciamo piú ad uscire
+ 
+	e.g.
+ 
+		per fare il metodo CollegamentoPerOccupazione()...
+ 
+		prima apro un file txt e abbozzo in pseudocodice i vari step dell'algoritmo ottenendo una roba tipo
+ 
+ 
+			 1. Scorro l'array collegamenti
+			 2. Se uno dei due utenti svolge l'occupazione passata per parametro
+				a. Estraggo i dati che mi servono
+				b. Concateno e aggiorno la Stringa di output nel formato richiesto
+			 3. Altrimenti non modifico nulla
+			 4. Restituisco la Stringa
+ 
+ 
+		poi lo aggiungo come commento (/**/) dentro il metodo, cosí (1) lo ho sempre a portata di mano e (2) mi rimane anche per quando
+		dovró correggere il codice con la seconda consegna, ovvero
+ 
+		public String collegamentiPerOccupazione(String occupazione) {
+ 
+			/*
+			 * 1. Scorro l'array collegamenti
+			 * 2. Se uno dei due utenti svolge l'occupazione passata per parametro
+			 * 		a. Estraggo i dati che mi servono
+			 * 		b. Concateno e aggiorno la Stringa di output nel formato richiesto
+			 * 3. Altrimenti non modifico nulla
+			 * 4. Restituisco la Stringa
+			 * */
+ 
+			// Codice vero e proprio
+		}
+ 
+		Una volta fatto ció si prova a tradurrlo in codice...
+ 
+		N.B. Avrei potuto fare il tutto anche disegnando con carta e penna, magari abbozzando lo schema di un array e disegnandoci sopra
+			solo che in questo momento sono un po' impossibilitato dal disegnare, come avrete intuito
+ 
+	Per facilitare il debugging salva i dati che prendi da fuori il metodo in variabili locali, interne al metodo
+	Le variabili locali, interne al metodo, vanno create molto vicino al loro effettivo utilizzo, non accorparle tutte in cima
+ 
+	Dividi vari passi su più righe se ciò rende il codice più leggibile o più facile da debuggare
+	Evita di fare lunghe linee di codice piene di .richiami().suRichiami().suRichiami(), dividile in più linee per rendere il codice più leggibile
+ 
+	e.g.
+ 
+		invece di scrivere...
+ 
+		for (int i=0; i<vettore.lenght; i++)
+			if (utente.getCodiceFiscale().toString().equals(classeAcaso.getNumber().getCount().toString()))
+				trovato = true;
+ 
+		...scrivi...
+ 
+		for (int i=0; i<vettore.lenght; i++){
+ 
+			codiceFiscale = utente.getCodiceFiscale().toString();
+			numberClasseCaso = classeAcaso.getNumber().getCount().toString()
+ 
+			if (codiceFiscale.equals(numberClasseCaso)) {
+				trovato = true;
+			}
+		} 
+ 
+		usando quelle variabili interne non solo rendiamo il codice piú leggibile (dividendolo in piú righe)
+		ma anche in debugging sará piú facile controllare che valori assumono
+		di volta in volta le variabili codiceFiscale e numberClasseCaso, provare per credere.
+ 
+ 
+	|| 	(linea guida che IO seguo per avere un codice ordinato) LE FUNZIONI DOVREBBERO ESSERE MAX 20-30 LINEE, I METODI 20-50, LE CLASSI MAX 200 LINEE, 
+		esclusi commenti, spazi e graffe
+		se sono di più innesto altre funzioni, metodi e/o classi dentro  (in gergo tecnico si dice refactoring e injection)
+ 
+		ovviamente sono valori generici, fai come meglio credi
+ 
+	Tips:
+ 
+	Usa i commenti di linea (//), ma non in ogni singolo passo, limitati ai passaggi piú delicati come i cicli for e degli if molto complessi
+ 
+	(Avanzato) Sfrutta il commento descrittivo (aka Javadoc)  (/** */) e i tag @param e @return per usare l'hover di eclipse
+ 
+	> Per approfondire leggi https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html, qui ho riportato solo le regole migliori
+					e guarda https://www.youtube.com/playlist?list=PLJ690cxlZTgK6j3wpoI9PBopRLNZc5QPv
+ 
+	  Entrambi i link sono approfonditi successivamente nella sezione EXTRA-TIPS
+ 
+	> F.A.Q.
+ 
+		«MA NON RISCHIO DI PERDERE TROPPO TEMPO IL GIORNO DELL'ESAME?»
+ 
+		No.
+ 
+		mi spiego meglio: 
+ 
+		  (1) non ho ancora dato questo corso, é la prima volta che lo frequento, esattamente come la maggior parte di voi,
+			ma vengo da un ITT Informatico e posso assicurarvi che a ogni verifica di OOP 
+			pianificare prima di scrivere mi ha salvato il culo innumerevoli vol
+			te,
+			suppongo che questo esame non faccia eccezzione, anzi, probabilmente ci daranno un progetto molto lungo da scrivere quindi 
+			inevitabilmente dovremmo pianificare per scrivere, almeno in alcuni metodi o specifici algoritmi
+ 
+		  (2) non voglio sminuire l'improvvisazione, va bene assolutamente improvvisare ogni tanto, ma solo con gli algoritmi piú facili
+ 
+			ognuno in questo corso ha capacitá di programmazione differenti, e per ognuno potrá risultare 
+			piú o meno difficile completare lo stesso identico esercizio
+ 
+			quindi, se fino ad ora hai avuto difficoltá con il l'approccio "improvvisazione" ti consiglio CALDAMENTE di iniziare a fare 
+			piú uso di carta e penna per pianificare il codice prima di scriverlo, vedrai che esercizio dopo esercizio diventerai 
+			sempre piú veloce non solo a scrivere il codice in sé per sé ma anche a "ragionare" da programmatore, quindi a improvvisare
+			meglio il giorno dell'esame per risparmiare veramente tempo, invece di perdere ore e ore per un metodo che era risolvibile in meno.
+ 
+5.	Buca il codice
+	Crea un tuo main alternativo che provi a bucare il codice, prima commenta i vari aspetti che vuoi controllare e poi traducili in codice
+ 
+6. 	Ottimizza il codice eventualmente con algoritmi più snelli o semplici (DRY + KISS, vedi sotto)
+ 
+7. 	Prima di consegnare etichetta ogni elemento della lista qui sotto
+		[ ] Togli la roba inutile (funzioni, metodi, attributi, variabili ... che non usi)
+		[ ] Rileggi il pdf per vedere se hai rispettato tutte le specifiche
+		[ ] Ricontrolla che le firme dei metodi coincidano con lo scheletro (usa pastebin del passo 1)
+		[ ] Rimetti le varie righe spezzate su una sola riga (per non avere problemi nei test)
+		[ ] Effettua un backup esportando il file zip
+		[ ] Assicurati di aver effettuato il login con l'estensione
+		[ ] Consegna
+ 
+ 
+EXTRA-TIPS (Forse un po' avanzati, ma almeno date un occhiata a DRY e KISS)
+ 
+	1.  Segui i principi DRY (Don't Repeat Yourself) e  KISS (Keep It Simple, Stupid!) 
+		eventualmente anche SOLID se sei proprio matto in culo.
+ 
+		Playlist YouTube con spiegazioni e esempi di DRY, KISS e SOLID: https://www.youtube.com/playlist?list=PLJ690cxlZTgK6j3wpoI9PBopRLNZc5QPv
+ 
+		DRY	
+			- Dont write duplicate code
+				If code is repeated, put it inside a function (Code Refactor)
+					The more you use DRY the more you are gonna see code duplication
+					It's NOT ok to repeat the code once or twice, it must NEVER be repeated, neather one time
+ 
+			- Less lines = Clean, Simple, Mantainable
+					200 lines per class (spaces and {} exlcluded)
+ 
+			--> OBJ: Help in making Code Isolation and Code Reusability
+ 
+		KISS
+			- If you are thinking "What is going on? I cant follow this code" then you are breaking the KISS principle
+ 
+			- If KISS is broken, refactor your code by trying alternatives (not by innesting it in functions as in DRY)
+				The more you use KISS the more you are gonna see complex code
+ 
+			--> OBJ: Untagling Complex Code in something readable
+ 
+		SOLID (Avanzato)
+ 
+			S: Single Responsibility
+				Each class should have one responsability in the code
+				Eventually you can break a class in smaller classes if it gets bigger (refactoring + class injection)
+ 
+				Each function should do one thing only in the code
+				Eventually you can break your function in other smaller functions (refactoring + function injection)
+ 
+				Basically every block of code should have one and one porpuse only, aiming to solve it
+ 
+			O: Open to extensions, Closed to modifications
+				Each piece of code you develop should let others to implement it or extend it in other cases
+				but you have to make a good piece of code that works so well it doesn't need to be modified in order to implement the new extensions
+ 
+				Basically you have to make a "generic" code that works in a generic way so your code can be re-used easily
+ 
+			L: Liskov Sobstitution
+				If a certain piece of code works for a group of object of type T then
+				it should perfectly work even with a group of objects of type S (where S is a child of T)
+				If you need to override some parent's functions then make sure the parameters (inputs)
+				and the returned values (outputs) are of the same type and respect the original rules
+					If you need to broke this last rule then just make a new function (eventually with a similar name)
+ 
+				Basically just make sure your child classes are 100% compatible with code that uses parent class
+ 
+			I: Interface Segregation
+ 
+ 
+			D: Dependency Inversion
+ 
+ 
+		*Refactoring = Change the code of a program without changing its behaviour
+		*Class/functions Injection = Making classes/functions only in order to be used into other classes/functions
+ 
+	2.  Formatta il codice in maniera pulita e ordinata, segui un tuo formatting preciso
+ 
+		Clean code formatting 1: 		https://medium.com/nerd-for-tech/clean-code-formatting-source-code-structure-f3021575d79
+		Clean code formatting 2: 		https://www.freecodecamp.org/news/clean-coding-for-beginners/
+		Variables naming conventions: 	https://www.freecodecamp.org/news/programming-naming-conventions-explained/
+ 
+		+ Segui ciò che ti consiglia eclipse
+ 
+ 
+F.A.Q.		
+ 
+	Ma perché fai tutto questo lavoro?
+
+    	Bho mi andava, in realtá lo avevo fatto per me ma poi la situa ha preso una piega tutta sua e sono finito a creare una versione "per tutti"

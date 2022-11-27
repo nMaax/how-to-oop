@@ -1,0 +1,33 @@
+TO-DO	
+
+v Potrei salvare l'array di Stringe con i codici fiscali come attributo e non come metodo
+	Non serve... e in più non è elegante, meglio avere una lista di utenti che hanno TUTTI i dati 
+	e  non solo il CF... 
+v Devo trovare la lunghezza giusta dell'array (vincolo di bigM)
+v Riga 155, esiste un modo per fare il ricontrollo? O è meglio non fare nessun ricontrollo e modificare anche il metodo NuovoUtente()?
+	Sì, usi il metodo collegamento()
+v Per i test va bene mandare a capo a metà di un if o di una stringa? o da errore (riga 174, riga 115)
+	NO
+	
+[v] Non serve anche un costruttore di Network senza attributi? ricontrolla lo scheletro
+[v] testa la bontà dei metodi NuovoUtente e NuovoCollegamento ora che c'è il ricontrollo
+[v] devo controllare che uno non provi a fare il collegamento con la stessa persona? (riga 169)
+[v] controlla che i messaggi di errore in forma Stringa (come "Utente non individuato" siano tutti corretti)
+[v] trova la giusta funzione da usare per i confronti tra stringhe: equals() o equalsTo()
+[v] rimetti le stringe e gli if in una sola riga
+
+[v] RIMUOVI OGNI COSA CHE SIA DI TROPPO, ALTRIMENTI FAI LA FINE DI factorial()
+
+
+- ATTENTO: la funzione utente() non funzionava perché hai usato == come confronto tra stringhe invece di equals() o equalsTo()
+
+- Non c'è bisogno di aggiornare eventualmente i collegamenti con nuovi codici fiscali perchè per definizione i CF sono immutabili (al limite variano gli altri attributi degli utenti)
+- Non c'è bisogno di prevedere l'eliminazione di utenti e/o collegamenti :)
+
+
+x provo a buttare giù la p3
+x rimuovo le parti di troppo
+x metto stringhe e if in una sola riga
+x ricontrollo il pdf
+- scarico di nuovo lo scheletro, controllo le firme e ripulisco il main
+- consegno
