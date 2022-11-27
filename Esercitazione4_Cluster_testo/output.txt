@@ -1,0 +1,62 @@
+Creazione Cluster
+
+Creazione utenti
+
+Creato utente fabio.garcea@polito.it
+
+fabio.garcea@polito.it
+Fabio
+Garcea
+Password1
+19930917
+ssh-rsaAAABBBCCC
+RASPRIVATE---MIIBOgIBAAJBAKj34---ENDRSA
+Creazione altri utenti
+
+Descrizione utente fabrizio.lamberti@polito.it
+
+fabrizio.lamberti@polito.it, Fabrizio, Lamberti, *********, 19800101
+Ricerca utente lia.morra@polito.it
+
+lia.morra@polito.it, Lia, Morra, 3passworD, 19850101
+Ricerca utenti creati finora
+
+fabio.garcea@polito.it, Fabio, Garcea, *********, 19930917, ssh-rsaAAABBBCCC, RASPRIVATE---MIIBOgIBAAJBAKj34---ENDRSA
+fabrizio.lamberti@polito.it, Fabrizio, Lamberti, *********, 19800101
+lia.morra@polito.it, Lia, Morra, *********, 19850101
+guido.marchetto@polito.it, Guido, Marchetto, *********, 19850202
+Creazione processi
+Creato processo 1
+
+1
+fabrizio.lamberti@polito.it
+passWord2
+python render_texture.py --verbose
+20221118 16:45:00
+PENDING
+Creazione altri processi
+
+Descrizione processo 2
+
+2, fabio.garcea@polito.it, python train_ai.py --verbose, PENDING, 20221118 17:45:00
+Esecuzione processi
+
+true
+Completamento processi
+
+true
+Ricerca processo 3
+
+3, lia.morra@polito.it, python compute_statistics.py --verbose, COMPLETATO, 20221127 18:30:00
+Ricerca processi
+
+1, fabrizio.lamberti@polito.it, python render_texture.py --verbose, ESECUZIONE, 20221118 18:25:00
+2, fabio.garcea@polito.it, python train_ai.py --verbose, ESECUZIONE, 20221118 18:25:00
+3, lia.morra@polito.it, python compute_statistics.py --verbose, COMPLETATO, 20221127 18:30:00
+4, lia.morra@polito.it, python validate_model.py --verbose, ESECUZIONE, 20221127 18:30:00
+Elenco utenti per email
+lia.morra@polito.it, Lia, Morra, *********, 19850101
+guido.marchetto@polito.it, Guido, Marchetto, *********, 19850202
+fabrizio.lamberti@polito.it, Fabrizio, Lamberti, *********, 19800101
+fabio.garcea@polito.it, Fabio, Garcea, *********, 19930917, ssh-rsaAAABBBCCC, RASPRIVATE---MIIBOgIBAAJBAKj34---ENDRSA
+Elenco processi Pending
