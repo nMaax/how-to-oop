@@ -223,10 +223,10 @@ public class BreakCode {
 ```
 
 ### 6. Ottimizza il codice
-Crea algoritmi più snelli o semplici (DRY, KISS, SOLID)
-Risolvi le domande che ti sono rimaste (segnate in todo.txt) 
+* Crea algoritmi più snelli o semplici (DRY, KISS, SOLID)
+* Risolvi le domande che ti sono rimaste (segnate in todo.txt) 
 
-[![Esempiotodo](https://i.postimg.cc/VvFRGcPR/immagine.png)](https://postimg.cc/Fk73z8Rd)
+[![Esempio di todo.txt](https://i.postimg.cc/VvFRGcPR/immagine.png)](https://postimg.cc/Fk73z8Rd)
 
 ### 7. Prima di consegnare:
 1. Effettua un backup esportando il file zip del progetto
