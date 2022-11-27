@@ -37,8 +37,8 @@ Fatti un idea generale di programma e abbozza velocemente su un foglio di carta 
 ### 3. Getters, Setters e costruttori
 Torna all'inizio del pdf e skimma ogni parte per generare i vari package, classi, attributi, getter e setter di base (```Alt + S```)
 
-* Metti gli attributi a private/protected, i metodi a public
-* Crea dei costruttori di default per ogni classe con valori static final di default (utili per testare il codice velocemente)
+* Metti gli attributi a ```private/protected```, i metodi a ```public```
+* Crea dei costruttori di default per ogni classe con costanti ```static final``` di default (utili per testare il codice velocemente)
 * Crea i metodi ```toString()```, ```equals(Object o)``` e ```compareTo(Object o)``` (nei test non vengono mai stampati gli oggeti direttamente)
 
 ```java
@@ -48,15 +48,17 @@ import java.util.LinkedList;
 
 public class SimpleClass {
 	
-	public final static int CONSTANT = 42;
+	public final static int CONSTANT_FOR_COMMON_ATTRIBUTE = 42; // il significato di tutto
+	public final static LinkedList<Boolean> DEFAULT_ATTRIBUTE_FOR_CHILDS = new LinkedList<Boolean>();
+	public final static String BEST_QUOTE = "DON'T PANIC!";
 	
 	private int commonAttribute;
 	protected LinkedList<Boolean> attributeForChilds;
 	
 	public SimpleClass() {
 		super();
-		commonAttribute = CONSTANT;
-		attributeForChilds = new LinkedList<Boolean>();
+		commonAttribute = CONSTANT_FOR_COMMON_ATTRIBUTE;
+		attributeForChilds = DEFAULT_ATTRIBUTE_FOR_CHILDS;
 		attributeForChilds.addFirst(true);
 	}
 
@@ -95,12 +97,12 @@ public class SimpleClass {
 		if (getClass() != obj.getClass())
 			return false;
 		SimpleClass other = (SimpleClass) obj;
-		return compareTo(other) > CONSTANT;
+		return compareTo(other) > CONSTANT_FOR_COMMON_ATTRIBUTE;
 	}
 
 	@Override
 	public String toString() {
-		return "SimpleClass [commonAttribute=" + commonAttribute + ", attributeForChilds=" + attributeForChilds + "]";
+		return BEST_QUOTE;
 	}
 }
 
