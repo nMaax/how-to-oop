@@ -178,7 +178,7 @@ public class BreakCode {
 	public static void makeUsers(Cluster c) {
 		sopln(" * * * " + "Creazione utenti".toUpperCase() + " * * *\n");
 		//Creo un primo admin e testo di getter
-		UtenteAdmin u1 = c.registraUtente("fabio.garcea@polito.it", "Fabio", "Garcea", "Password1", "19930917", "ssh-rsaAAABBBCCC", "RASPRIVATE---MIIBOgIBAAJBAKj34---ENDRSA");
+		UtenteAdmin u1 = c.registraUtente("fabio.garcea@polito.it", "Fabio", "Garcea", "Password1", "19930917", "pub - Che schifo Python (mi dissocio)", "priv - ma poi chi é che fa ingegneria matematica in questo corso? Ragazzi fatevi vedere");
 		sopln("Creato utente admin: " + u1.getEmail());
 		sopln(u1.getNome());
 		sopln(u1.getCognome());
@@ -200,13 +200,13 @@ public class BreakCode {
 		// Genero un utente e provo a rifarlo ma con un tipo diverso
 		c.registraUtente("winston.churchill@gov.uk", "Winston", "Churchill", "nukeBerlinN0W", "18901225");
 		c.registraUtente("winston.churchill@gov.uk", "Winston", "Churchill", "nukeBerlinN0W", "18901225", "ThisKeyWillBeIgnored", "ThisOneToo");
-		c.registraUtente("elonmusk@twitter.com", "Elon", "Musk", "toTheMoon3", "19850101", "SHA101-PUB", "SHA101-PRIV");
-		c.registraUtente("elonmusk@twitter.com", "Elon", "Muschio", "toTheMoon3", "19850101");
+		c.registraUtente("elonmusk@twitter.com", "Elon", "Musk", "comicityIsLegalOnTwitterNow", "19850101", "DOGE101-PUB", "DOGE101-PRIV");
+		c.registraUtente("elonmusk@twitter.com", "Elon", "Muschio", "Selvaggi0", "19850101");
 		
 		//Genero degli utenti con formati di email, password o dataNascita incompatibili
-		c.registraUtente("passwordErrta@test.it", "Man", "Ahah Women", "jesusChrist", "19850101");
-		c.registraUtente("emailErrata", "Man", "Ahah Women", "jesusChrist3", "19850101");
-		c.registraUtente("eta@minorenne", "Man", "Ahah Women ", "jesusChrist3", "20220101");
+		c.registraUtente("passwordErrata@test.it", "Misato", "Katsuragi", "thekidlaroi", "19850101");
+		c.registraUtente("emailErrata", "Asuka", "Langley Soryu", "theK1dLaroi", "19850101");
+		c.registraUtente("eta@minorenne", "Rei", "Ayanami", "theK1dLaroi", "20200101");
 		sopln();
 	}
 	
