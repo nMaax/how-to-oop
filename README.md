@@ -111,6 +111,7 @@ public class SimpleClass {
 ### 4. Elementi, metodi e algoritmi avanzati del programma
 Per ogni parte del pdf:
 * _**Prima si pianifica e dopo si scrive!**_
+* **Work smart, not hard!** (Non ti dedicare a strutture dati - inutilmente - complicate ma cerca il modo piú veloce e intelligente di risolvere il problema)
 * Individua quei metodi "simili" che sono riscrivibili come unico metodo ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))
 * Inzia a creare il programma, per ogni metodo:
 	1. Compila lo pseudocodice relativo (aiutandoti con carta e penna eventualmente)
