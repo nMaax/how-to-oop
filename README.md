@@ -118,6 +118,7 @@ Per ogni parte del pdf:
 	2. Crea il codice, eventualmente commentando riga per riga (```//```) per i metodi piú complessi
 	3. Testa il loro funzionamento su myMain e con ```Esempio.java``` 
 	4. **Debugga!** Non importa quali siano le tue capacitá, se non sai debuggare _imparalo subito!_, all'esame sará _fondamentale_. Se non sai come debuggare su Eclipse puoi guardare [questo video](https://youtu.be/aqcJsKdjjvU) 
+* Puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
 
 ```java 
 
