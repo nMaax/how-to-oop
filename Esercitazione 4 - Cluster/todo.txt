@@ -1,0 +1,27 @@
+Domande
+
+	V in registraUtente() devo aggiornare i dati di un utente già esistente?
+		No
+	V in descriviUtente() se non trova l'utente restituisce null?
+		Ni, è  il valore di ritorno
+	v se faccio l' override di equals devo riscrivere l'hashCode? 
+		No
+	V gli admin possono vedere le password di altri admin?
+		si
+	V in Esempio si passa per paramtero una stringa timestamp senza data
+		Ha sbagliato garcea
+	V quando viene chiesto di ordinare le liste in ordine di timestamp piú recente si intende
+		"piú nel futuro" o "piú vicino alla data odierna?"
+		Solo processi antecedenti alla data odierna
+		
+Da sperimentare
+
+ v condensare i metodi isBefore, isAfter, .. in compareTo()
+ 	Nota che per come é strutturato il timestamp forse basta castare la stringa in intero e fare un confronto tra numeri
+ v riscrivere equals() secondo eclipse (utilizzando il compareTo())
+ v usare il metodo Collections.sort()
+ 
+ v usare le linkedLists()
+ 
+ x usare le Collection.queue al posto dell'array di codaEsecuzione
+ v usare le Collection.LinkedList/ArrayList con .append() o .aggiungiInTesta() 
