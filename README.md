@@ -11,7 +11,7 @@ Copia lo scheletro e salvalo in un file ```bones.txt``` interno al progetto
 
 Crea un file txt ```todo.txt``` interno al progetto dove annotare ció che ti viene in mente, la todo list e altro
 
-Crea un package ```myTests``` e ```myMethods``` per, rispettivamente:
+Crea un package ```myTests``` e ```myMethods``` (o i nomi che preferisci) per, rispettivamente:
 
 1. Creare i tuoi main di testing del codice (```myMain.java``` e ```breakCode.java``` in myTest)
 2. Riunire i metodi di manipolazione dati (```dataManipulationMethods.java``` in myMethods)
