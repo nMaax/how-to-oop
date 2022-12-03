@@ -16,7 +16,7 @@ Crea un package ```myTests``` e ```myMethods``` (o i nomi che preferisci) per, r
 1. Creare i tuoi main di testing del codice (```myMain.java``` e ```breakCode.java``` in myTest)
 2. Riunire i metodi di manipolazione dati (```dataManipulationMethods.java``` in myMethods)
 
-N.B. _myMethods mettilo come sottopackage del package principale fornito dalla consegna_
+###### myMethods mettilo come sottopackage del package principale fornito dalla consegna, altrimenti non te lo legge (come specificato a inizio di ogni pdf)
 
 [![Esempio di struttura del progetto](https://i.postimg.cc/TYHb8Tc4/immagine.png)](https://postimg.cc/BXHbH9kT)
 	
@@ -121,7 +121,7 @@ Per ogni parte del pdf:
 * Segnati le cose da fare successivamente con ```//TODO``` e la window Tasks di Eclipse
 * (Avanzato) Usa [git](https://git-scm.com/) con Egit per fare una cronologia del progetto
 
-_Pr farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4_
+###### Per farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
 
 [![Esempio di utilizzo di //TODO](https://i.postimg.cc/XJKJ6p2P/immagine.png)](https://postimg.cc/Vr61jLP9)
 
