@@ -117,13 +117,13 @@ Per ogni parte del pdf:
 	1. Crea lo pseudocodice relativo (aiutandoti con carta e penna eventualmente) da inserire in cima (```/**/```)
 	2. Crea il codice, eventualmente commentando riga per riga (```//```) per i metodi piú complessi
 	3. Testa il loro funzionamento su myMain e con ```Esempio.java``` 
-	4. **Debugga!** Non importa quali siano le tue capacitá, se non sai debuggare _imparalo subito!_, all'esame sará _fondamentale_. Se non sai come debuggare su Eclipse puoi guardare [questo video](https://youtu.be/aqcJsKdjjvU) 
-	5. Segnati le cose da fare successivamente con ```//TODO``` e la window Tasks di Eclipse
-	6. (Avanzato) Usa [git](https://git-scm.com/) con Egit per fare una cronologia del progetto
+*. **Debugga!** Non importa quali siano le tue capacitá, se non sai debuggare _imparalo subito!_, all'esame sará _fondamentale_. Se non sai come debuggare su Eclipse puoi guardare [questo video](https://youtu.be/aqcJsKdjjvU) 
+*. Segnati le cose da fare successivamente con ```//TODO``` e la window Tasks di Eclipse
+* (Avanzato) Usa [git](https://git-scm.com/) con Egit per fare una cronologia del progetto
 
-* Per farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
+_Pr farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4_
 
-[![Esempio di utilizzo di //TODO](https://i.postimg.cc/2ywVhVhW/immagine.png)](https://postimg.cc/T5KdX2k2)
+[![Esempio di utilizzo di //TODO](https://i.postimg.cc/XJKJ6p2P/immagine.png)](https://postimg.cc/Vr61jLP9)
 
 ```java 
 
