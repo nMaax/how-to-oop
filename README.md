@@ -121,7 +121,7 @@ Per ogni parte del pdf:
 * Segnati le cose da fare successivamente con ```//TODO``` e la window Tasks di Eclipse
 * (Avanzato) Usa [git](https://git-scm.com/) con Egit per fare una cronologia del progetto
 
-###### Per farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
+###### Per farti un idea piú approfondita di come sono stati applicati questi punti nel concreto puoi dare un occhiata al mio codice in [questa repo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src)
 
 [![Esempio di utilizzo di //TODO](https://i.postimg.cc/XJKJ6p2P/immagine.png)](https://postimg.cc/Vr61jLP9)
 
