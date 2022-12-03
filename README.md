@@ -18,7 +18,7 @@ Crea un package ```myTests``` e ```myMethods``` (o i nomi che preferisci) per, r
 
 [![Esempio di struttura del progetto](https://i.postimg.cc/TYHb8Tc4/immagine.png)](https://postimg.cc/BXHbH9kT)
 ###### myMethods mettilo come sottopackage del package principale fornito dalla consegna, altrimenti non te lo legge (come specificato a inizio di ogni pdf)
-	
+
 ### 1. Analisi del problema e dello scheletro
 Leggi il pdf diviso per parti
 
