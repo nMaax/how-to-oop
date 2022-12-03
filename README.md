@@ -38,7 +38,7 @@ Fatti un idea generale di programma e abbozza velocemente su un foglio di carta 
 Torna all'inizio del pdf e skimma ogni parte per generare i vari package, classi, attributi, getter e setter di base (```Alt + S```)
 
 * Metti gli attributi a ```private/protected```, i metodi a ```public```
-* Crea dei costruttori di default per ogni classe con costanti ```static final``` di default (utili per testare il codice velocemente)
+* Crea dei costruttori vuoti di default per ogni classe con costanti ```static final``` di default (utili per testare il codice velocemente in myTests)
 * Crea i metodi ```toString()```, ```equals(Object o)``` e ```compareTo(Object o)``` (nei test non vengono mai stampati gli oggeti direttamente)
 
 ```java
