@@ -114,11 +114,16 @@ Per ogni parte del pdf:
 * **Work smart, not hard!** (Non ti dedicare a strutture dati - inutilmente - complicate ma cerca il modo piú veloce e intelligente di risolvere il problema)
 * Individua quei metodi "simili" che sono riscrivibili come unico metodo ([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself))
 * Inzia a creare il programma, per ogni metodo:
-	1. Compila lo pseudocodice relativo (aiutandoti con carta e penna eventualmente)
+	1. Crea lo pseudocodice relativo (aiutandoti con carta e penna eventualmente) da inserire in cima (```/**/```)
 	2. Crea il codice, eventualmente commentando riga per riga (```//```) per i metodi piú complessi
 	3. Testa il loro funzionamento su myMain e con ```Esempio.java``` 
 	4. **Debugga!** Non importa quali siano le tue capacitá, se non sai debuggare _imparalo subito!_, all'esame sará _fondamentale_. Se non sai come debuggare su Eclipse puoi guardare [questo video](https://youtu.be/aqcJsKdjjvU) 
-* Puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
+	5. Segnati le cose da fare successivamente con ```//TODO``` e la window Tasks di Eclipse
+	6. (Avanzato) Usa [git](https://git-scm.com/) con Egit per fare una cronologia del progetto
+
+* Per farti un idea piú approfondita di questa sezione puoi dare un occhiata al mio codice in questa repo, basta premere su how-to-oop sopra questo file o andare a [questo indirizzo](https://github.com/nMaax/how-to-oop/tree/main/Esercitazione%204%20-%20Cluster/src) per vedere direttamente l'Esercitazione 4
+
+[![Esempio di utilizzo di //TODO](https://i.postimg.cc/2ywVhVhW/immagine.png)](https://postimg.cc/T5KdX2k2)
 
 ```java 
 
