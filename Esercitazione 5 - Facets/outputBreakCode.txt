@@ -1,0 +1,324 @@
+<-- TEST 1 -->
+
+* * * CREO ISCRITTI * * *
+
+Creo un po' di iscritti normali
+
+fabio.garcea@polito.it Fabio Garcea Uomo 29
+fabio.cegar@polito.it Fabio Cegar Uomo 92
+fabrizio.lamberti@polito.it Fabrizio Lamberti Uomo 40
+lia.morra@polito.it Lia Morra Donna 40
+renato.olivetti@olivetti.it Renato Olivetti Uomo 78
+lena.oxton@ow.blz Lena Oxton Donna 27
+pomme@spotify.com Claire Pommet Donna 24
+yumi.arai@spotify.com Yumi Arai Donna 56
+guido.saracco@polito.it Guido Saracco Uomo 57
+ikari.shinji@nerv.jp Ikari Shinji Uomo 14
+reiI.ayanami@nerv.jp Rei Ayanami Donna 14
+reiII.ayanami@nerv.jp Rei Ayanami Donna 14
+reiIII.ayanami@nerv.jp Rei Ayanami Donna 14
+asuka.soryu@nerv.jp Asuka Langley Soryu Donna 14
+misato.katsuragi@nerv.jp Misato Katsuragi Donna 29
+
+Creo iscritti già esistenti
+
+guido.saracco@polito.it Guido Saracco Uomo 57
+ikari.shinji@nerv.jp Ikari Shinji Uomo 14
+reiII.ayanami@nerv.jp Rei Ayanami Donna 14
+misato.katsuragi@nerv.jp Misato Katsuragi Donna 29
+
+Invoco i getter di Misato Katsuragi
+
+misato.katsuragi@nerv.jp
+Misato
+Katsuragi
+Donna
+29
+
+
+* * * DESCRIVO ISCRITTI * * *
+
+Descrivo un utente esistente
+
+pomme@spotify.com Claire Pommet Donna 24
+
+Descrivo un utente non esistente
+
+null
+
+
+* * * CERCO ISCRITTI * * *
+
+Cerco iscritto per email esistente
+yumi.arai@spotify.com Yumi Arai Donna 56
+
+Cerco iscritto per email non esitente
+null
+
+Cerco iscritto per nome e cognome completi
+[lena.oxton@ow.blz Lena Oxton Donna 27]
+
+Cerco iscritto per nome non completo e cognome completo
+[lena.oxton@ow.blz Lena Oxton Donna 27]
+
+Cerco iscritto per nome completo e cognome non completo
+[lena.oxton@ow.blz Lena Oxton Donna 27]
+
+Cerco iscritto per nome e cognome non completi
+[lena.oxton@ow.blz Lena Oxton Donna 27]
+
+Cerco iscritto per nome non completo e cognome completamente sbagliato
+[]
+
+Cerco iscritto per nome completamente sbagliato e cognome non completo
+[]
+
+Cerco iscritto per nome e cognome completamente sbagliati
+[]
+
+Cerco piú iscritti per nome incompleto (e cognome vuoto)
+[reiI.ayanami@nerv.jp Rei Ayanami Donna 14, reiII.ayanami@nerv.jp Rei Ayanami Donna 14, reiIII.ayanami@nerv.jp Rei Ayanami Donna 14, renato.olivetti@olivetti.it Renato Olivetti Uomo 78]
+
+Cerco piú iscritti per nome completo (e cognome vuoto)
+[fabio.cegar@polito.it Fabio Cegar Uomo 92, fabio.garcea@polito.it Fabio Garcea Uomo 29]
+
+Cerco piú iscritti per cognome completo (e nome vuoto)
+[asuka.soryu@nerv.jp Asuka Langley Soryu Donna 14, fabio.cegar@polito.it Fabio Cegar Uomo 92, fabio.garcea@polito.it Fabio Garcea Uomo 29, fabrizio.lamberti@polito.it Fabrizio Lamberti Uomo 40, guido.saracco@polito.it Guido Saracco Uomo 57, lia.morra@polito.it Lia Morra Donna 40, misato.katsuragi@nerv.jp Misato Katsuragi Donna 29, reiI.ayanami@nerv.jp Rei Ayanami Donna 14, reiII.ayanami@nerv.jp Rei Ayanami Donna 14, reiIII.ayanami@nerv.jp Rei Ayanami Donna 14, yumi.arai@spotify.com Yumi Arai Donna 56]
+
+
+* * * ELENCO ISCRITTI * * *
+
+Elenco iscritti
+Lunghezza elenco:15
+asuka.soryu@nerv.jp Asuka Langley Soryu Donna 14
+pomme@spotify.com Claire Pommet Donna 24
+fabio.cegar@polito.it Fabio Cegar Uomo 92
+fabio.garcea@polito.it Fabio Garcea Uomo 29
+fabrizio.lamberti@polito.it Fabrizio Lamberti Uomo 40
+guido.saracco@polito.it Guido Saracco Uomo 57
+ikari.shinji@nerv.jp Ikari Shinji Uomo 14
+lena.oxton@ow.blz Lena Oxton Donna 27
+lia.morra@polito.it Lia Morra Donna 40
+misato.katsuragi@nerv.jp Misato Katsuragi Donna 29
+reiI.ayanami@nerv.jp Rei Ayanami Donna 14
+reiII.ayanami@nerv.jp Rei Ayanami Donna 14
+reiIII.ayanami@nerv.jp Rei Ayanami Donna 14
+renato.olivetti@olivetti.it Renato Olivetti Uomo 78
+yumi.arai@spotify.com Yumi Arai Donna 56
+
+
+<-- TEST 2 -->
+
+* * * CREO IMMAGINI * * *
+
+Creo immagini normali
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+2 fabio.garcea@polito.it louvre_monalisa.jpg FACEB Viaggi
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+4 lia.morra@polito.it 20200517_165503.jpg FACEB Conferenze
+5 lia.morra@polito.it 20200821_190408.jpg FACEB Mostre
+6 lia.morra@polito.it 20200517_165503.jpg INSTA 56
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+12 asuka.soryu@nerv.jp insta_pic.png INSTA 150
+13 asuka.soryu@nerv.jp profile6_pic.png INSTA 120
+14 asuka.soryu@nerv.jp story3_selfie.png INSTA 104
+15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+16 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+17 asuka.soryu@nerv.jp eva02_pic.png FACEB Vacanza in Giappone
+18 asuka.soryu@nerv.jp recupero_eva03.jpeg FACEB Vacanza Cittá del vaticano
+19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+
+Creo un immagine di un utente che non esiste su Facebook
+Creo un immagine di un utente che non esiste su Insta
+Creo un immagine di un utente che non esiste su un Altro Social
+
+Invoco i getters di dateWithAdam.jpeg (codice: 20)
+20
+reiIII.ayanami@nerv.jp
+dateWithAdam.jpeg
+
+Invoco i getter specifici di un immagine Facebook
+hairColoring
+
+Invoco i getter specifici di un immagine Instagram
+14
+
+Invoco i getter specifici di un immagine Altro Social
+TikTok
+42.0
+
+
+* * * DESCRIVO IMMAGINI * * *
+
+Descrivo un immagine esistente
+Facebook: 19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+Instagra: 15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+Altro Social: 11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+
+Descrivo un immagine inesistente
+null
+
+
+* * * CERCO IMMAGINI * * *
+
+Cerco un immagine esistente
+Facebook: 19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+Instagra: 15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+Altro Social: 11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+
+Cerco un immagine inesistente
+null
+
+
+* * * ELENCO IMMAGINI * * *
+
+Elenco immagini per codice
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+2 fabio.garcea@polito.it louvre_monalisa.jpg FACEB Viaggi
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+4 lia.morra@polito.it 20200517_165503.jpg FACEB Conferenze
+5 lia.morra@polito.it 20200821_190408.jpg FACEB Mostre
+6 lia.morra@polito.it 20200517_165503.jpg INSTA 56
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+12 asuka.soryu@nerv.jp insta_pic.png INSTA 150
+13 asuka.soryu@nerv.jp profile6_pic.png INSTA 120
+14 asuka.soryu@nerv.jp story3_selfie.png INSTA 104
+15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+16 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+17 asuka.soryu@nerv.jp eva02_pic.png FACEB Vacanza in Giappone
+18 asuka.soryu@nerv.jp recupero_eva03.jpeg FACEB Vacanza Cittá del vaticano
+19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+20 reiIII.ayanami@nerv.jp dateWithAdam.jpeg FACEB hairColoring
+21 reiIII.ayanami@nerv.jp dateWithAdam.jpeg INSTA 14
+22 reiIII.ayanami@nerv.jp dateWithAdam.jpeg ALTRO TikTok 42.0
+
+Elenco immagini per tipologia
+2 fabio.garcea@polito.it louvre_monalisa.jpg FACEB Viaggi
+4 lia.morra@polito.it 20200517_165503.jpg FACEB Conferenze
+5 lia.morra@polito.it 20200821_190408.jpg FACEB Mostre
+16 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+17 asuka.soryu@nerv.jp eva02_pic.png FACEB Vacanza in Giappone
+18 asuka.soryu@nerv.jp recupero_eva03.jpeg FACEB Vacanza Cittá del vaticano
+19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+20 reiIII.ayanami@nerv.jp dateWithAdam.jpeg FACEB hairColoring
+12 asuka.soryu@nerv.jp insta_pic.png INSTA 150
+15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+13 asuka.soryu@nerv.jp profile6_pic.png INSTA 120
+14 asuka.soryu@nerv.jp story3_selfie.png INSTA 104
+6 lia.morra@polito.it 20200517_165503.jpg INSTA 56
+21 reiIII.ayanami@nerv.jp dateWithAdam.jpeg INSTA 14
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+22 reiIII.ayanami@nerv.jp dateWithAdam.jpeg ALTRO TikTok 42.0
+
+Elenco immagini Altro Social per dimensione
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+22 reiIII.ayanami@nerv.jp dateWithAdam.jpeg ALTRO TikTok 42.0
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+
+
+<-- TEST 3 -->
+
+* * * CREO REPORTS * * *
+
+Creo un po' di reports
+
+Iscritt*: Asuka
+
+Creo dei report per ogni immagine, con timestamps non in ordine
+
+Creo altri report per ogni immagine, con timestamps successivo all'ultimo creato
+
+Creo altri report per alcune immagini, ma stavolta con timestamp antecedenti
+
+Creo altri report, ma per immagini che l'utente non possiede
+
+
+codice=1, immagine=8, descrizione=ImageNet_class:seashore(98.9%), timestamp=20221202 11:30:00
+codice=2, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:22:30
+codice=3, immagine=10, descrizione=ImageNet_class:sunrise(89.9%), timestamp=20221202 10:35:00
+codice=4, immagine=11, descrizione=ImageNet_class:seastar(98.9%), timestamp=20221202 11:30:00
+codice=5, immagine=12, descrizione=ImageNet_class:sunglasses(96.7%), timestamp=20221202 01:01:30
+codice=6, immagine=13, descrizione=ImageNet_class:sunfire(86.9%), timestamp=20221202 11:37:00
+codice=7, immagine=14, descrizione=ImageNet_class:seahorse(99.9%), timestamp=20221202 12:30:10
+codice=8, immagine=15, descrizione=ImageNet_class:sun(79.1%), timestamp=20221202 09:24:59
+codice=9, immagine=16, descrizione=ImageNet_class:pacific_ocean(42.0%), timestamp=20221202 09:24:04
+codice=10, immagine=8, descrizione=ImageNet_class:seashore(98.9%), timestamp=20221202 11:30:01
+codice=11, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:23:30
+codice=12, immagine=10, descrizione=ImageNet_class:sunrise(89.9%), timestamp=20221202 10:36:00
+codice=13, immagine=11, descrizione=ImageNet_class:seastar(98.9%), timestamp=20221202 12:30:00
+codice=14, immagine=12, descrizione=ImageNet_class:sunglasses(96.7%), timestamp=20221202 23:01:30
+codice=15, immagine=13, descrizione=ImageNet_class:sunfire(86.9%), timestamp=20221202 11:39:00
+codice=16, immagine=14, descrizione=ImageNet_class:seahorse(99.9%), timestamp=20221202 12:30:11
+codice=17, immagine=15, descrizione=ImageNet_class:sun(79.1%), timestamp=20221202 09:25:00
+codice=18, immagine=16, descrizione=ImageNet_class:pacific_ocean(42.0%), timestamp=20221202 09:24:05
+Creo un report per un utente che non esiste
+null
+
+* * * CERCO REPORTS * * *
+
+Cerco report di immagini con report
+[codice=2, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:22:30, codice=11, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:23:30]
+
+Cerco report di immagini senza report
+[]
+
+Cerco report di immagini che non esistono
+null
+
+Cerco report con id che esiste
+codice=1, immagine=8, descrizione=ImageNet_class:seashore(98.9%), timestamp=20221202 11:30:00
+
+Cerco report con id che non esiste
+Errore facets.ReportNonEsistenteException gestito correttamente
+
+
+* * * ELENCO REPORTS * * *
+
+Elenco i report di Asuka
+codice=5, immagine=12, descrizione=ImageNet_class:sunglasses(96.7%), timestamp=20221202 01:01:30
+codice=9, immagine=16, descrizione=ImageNet_class:pacific_ocean(42.0%), timestamp=20221202 09:24:04
+codice=18, immagine=16, descrizione=ImageNet_class:pacific_ocean(42.0%), timestamp=20221202 09:24:05
+codice=8, immagine=15, descrizione=ImageNet_class:sun(79.1%), timestamp=20221202 09:24:59
+codice=17, immagine=15, descrizione=ImageNet_class:sun(79.1%), timestamp=20221202 09:25:00
+codice=3, immagine=10, descrizione=ImageNet_class:sunrise(89.9%), timestamp=20221202 10:35:00
+codice=12, immagine=10, descrizione=ImageNet_class:sunrise(89.9%), timestamp=20221202 10:36:00
+codice=2, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:22:30
+codice=11, immagine=9, descrizione=ImageNet_class:sunset(96.7%), timestamp=20221202 11:23:30
+codice=1, immagine=8, descrizione=ImageNet_class:seashore(98.9%), timestamp=20221202 11:30:00
+codice=4, immagine=11, descrizione=ImageNet_class:seastar(98.9%), timestamp=20221202 11:30:00
+codice=10, immagine=8, descrizione=ImageNet_class:seashore(98.9%), timestamp=20221202 11:30:01
+codice=6, immagine=13, descrizione=ImageNet_class:sunfire(86.9%), timestamp=20221202 11:37:00
+codice=15, immagine=13, descrizione=ImageNet_class:sunfire(86.9%), timestamp=20221202 11:39:00
+codice=13, immagine=11, descrizione=ImageNet_class:seastar(98.9%), timestamp=20221202 12:30:00
+codice=7, immagine=14, descrizione=ImageNet_class:seahorse(99.9%), timestamp=20221202 12:30:10
+codice=16, immagine=14, descrizione=ImageNet_class:seahorse(99.9%), timestamp=20221202 12:30:11
+codice=14, immagine=12, descrizione=ImageNet_class:sunglasses(96.7%), timestamp=20221202 23:01:30
+
+Elenco i report di un utente che non esiste
+Errore facets.IscrittoNonEsistenteException gestito correttamente
+
+
+<-- TEST 4 -->
+
+* * * LEGGO IL FILE TXT * * *
+
+
