@@ -1,9 +1,9 @@
-# Come usare breakCode
+# Come usare BeakCode
 
 | :exclamation: :exclamation: :exclamation: MOLTO IMPORTANTE :exclamation: :exclamation: :exclamation: |
 |-----------------------------------------|
 | **PRIMA DI CONSEGNARE RIMUOVI BREAKCODE, IL FILE TXT E I METODI toString AGGIUNTIVI CHE TI HO CHIESTO DI DEFINIRE QUI SOTTO** SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' TUA :) |
-| :warning: IGNORA A TUO RISCHIO E PERICOLO   |
+| :warning:   IGNORA A TUO RISCHIO E PERICOLO   |
 
 ## 1. Definisci un metodo toString() per le classi Iscritto e Immagine (se già non lo hai fatto) 
 Probabilmente lo hai già fatto per rispondere ai requisiti del problema.
