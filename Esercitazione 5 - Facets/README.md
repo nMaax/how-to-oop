@@ -12,7 +12,7 @@ Se lo hai già fatto salta questo passo e vai direttamente a quello sotto.
 
 Se invece non lo hai ancora fatto copia e incolla tranquillamente i codici che trovi qui sotto, eventualmente eliminali dopo.
 
-| :zap: Riscrivi i metodi in modo che coincidano con i nomi degli attributi del tuo programma |
+| :zap: Riscrivi i metodi in modo che coincidano con gli attributi delle classi del tuo programma |
 |-----------------------------------------|
 
 Per la classe Iscritto
