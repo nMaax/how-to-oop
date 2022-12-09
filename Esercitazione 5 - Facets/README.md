@@ -60,7 +60,8 @@ public String toString() {
 
 ## 3. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
 Io personalmente mi faccio un package ```tests``` nel progetto, ma puoi metterlo dove ti pare
-![Immagine di esempio di dove metto BreakCode](https://ibb.co/sjG9qSc)
+![Immagine di esempio di dove metto BreakCode](https://i.ibb.co/0qSyrN1/immagine.png)
+
 
 ## 4. Avvialo e confronta i risultati, li trovi su outputBreakCode.txt
 Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/)
