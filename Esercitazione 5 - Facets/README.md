@@ -1,8 +1,9 @@
-# Come usare BeakCode
+# Come usare BeakCode ⚠️ IGNORA A TUO RISCHIO E PERICOLO
 
 | :exclamation: :exclamation: :exclamation: MOLTO IMPORTANTE :exclamation: :exclamation: :exclamation: |
 |-----------------------------------------|
-| **PRIMA DI CONSEGNARE RIMUOVI BREAKCODE, IL FILE TXT E I METODI toString AGGIUNTIVI CHE TI HO CHIESTO DI DEFINIRE QUI SOTTO** SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' TUA :) |
+| <p style="text-align: center;"> **PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` AGGIUNTIVI CHE TI HO CHIESTO DI DEFINIRE QUI SOTTO** |	
+|SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :) </p> |
 | :warning:   IGNORA A TUO RISCHIO E PERICOLO   |
 
 ## 1. Definisci un metodo toString() per le classi Iscritto e Immagine (se non lo hai già fatto) 
@@ -72,8 +73,9 @@ Io personalmente mi faccio un package ```tests``` nel progetto, ma puoi metterlo
 
 
 ## 4. Avvialo e confronta i risultati, li trovi su outputBreakCode.txt 
-Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/) per confrontare i due file
+Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/) per confrontare i due file, molto comodo!
 
 | :zap:        NOTA BENE   |
 |--------------------------|
-| **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! Nota come ogni step sia appositamente commentato con dei print in console, leggili, ragionaci e riscrivili eventualmente! |
+| **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! E' normale che ci siano delle differenze, non tutti scriviamo il codice nella stessa identica maniera, e io pure posso aver sbagliato! (Nel caso scrivimi pure)|
+| Nota come ogni step sia appositamente commentato con dei print in console, leggili, ragionaci e riscrivili eventualmente! |
