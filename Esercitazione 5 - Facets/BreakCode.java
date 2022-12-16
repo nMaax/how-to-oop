@@ -37,7 +37,6 @@ public class BreakCode {
 		listReports();
 	}
 	
-	//TODO Define tests of part 4 (mancano ancora le casistiche specifiche che garcea deve chiarire a lezione)
 	public static void test4() {
 		sopln("<-- TEST 4 -->\n");
 		readTxtData();
