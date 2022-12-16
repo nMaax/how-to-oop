@@ -321,4 +321,111 @@ Errore facets.IscrittoNonEsistenteException gestito correttamente
 
 * * * LEGGO IL FILE TXT * * *
 
+Leggo un file che non esiste
 
+Leggo un file che esiste, in cui i dati sono appositamente scritti per bucare il codice
+
+
+Elenco iscritti:
+
+asuka.soryu@nerv.jp Asuka Langley Soryu Donna 14
+pomme@spotify.com Claire Pommet Donna 24
+princess.diane@gov.uk Diane Spencer Donna 30
+fabio.cegar@polito.it Fabio Cegar Uomo 92
+fabio.garcea@polito.it Fabio Garcea Uomo 29
+fabrizio.lamberti@polito.it Fabrizio Lamberti Uomo 40
+guido.saracco@polito.it Guido Saracco Uomo 57
+ikari.shinji@nerv.jp Ikari Shinji Uomo 14
+lena.oxton@ow.blz Lena Oxton Donna 27
+lia.morra@polito.it Lia Morra Donna 40
+misato.katsuragi@nerv.jp Misato Katsuragi Donna 29
+reiI.ayanami@nerv.jp Rei Ayanami Donna 14
+reiII.ayanami@nerv.jp Rei Ayanami Donna 14
+reiIII.ayanami@nerv.jp Rei Ayanami Donna 14
+renato.olivetti@olivetti.it Renato Olivetti Uomo 78
+wednesday.addams@nvmore.us Wednesday Addams Donna 16
+yumi.arai@spotify.com Yumi Arai Donna 56
+
+Elenco immagini:
+
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+2 fabio.garcea@polito.it louvre_monalisa.jpg FACEB Viaggi
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+4 lia.morra@polito.it 20200517_165503.jpg FACEB Conferenze
+5 lia.morra@polito.it 20200821_190408.jpg FACEB Mostre
+6 lia.morra@polito.it 20200517_165503.jpg INSTA 56
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+12 asuka.soryu@nerv.jp insta_pic.png INSTA 150
+13 asuka.soryu@nerv.jp profile6_pic.png INSTA 120
+14 asuka.soryu@nerv.jp story3_selfie.png INSTA 104
+15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+16 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+17 asuka.soryu@nerv.jp eva02_pic.png FACEB Vacanza in Giappone
+18 asuka.soryu@nerv.jp recupero_eva03.jpeg FACEB Vacanza Cittá del vaticano
+19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+20 reiIII.ayanami@nerv.jp dateWithAdam.jpeg FACEB hairColoring
+21 reiIII.ayanami@nerv.jp dateWithAdam.jpeg INSTA 14
+22 reiIII.ayanami@nerv.jp dateWithAdam.jpeg ALTRO TikTok 42.0
+23 wednesday.addams@nvmore.us img1.png FACEB ImmaginiProfilo
+24 wednesday.addams@nvmore.us img2.png INSTA 25
+25 wednesday.addams@nvmore.us img3.png ALTRO TikTok 34.45
+26 pomme@spotify.com pauline.svg ALTRO Spotify 23.01
+
+Leggo di nuovo dallo stesso file, i dati si duplicano?
+
+Elenco iscritti:
+
+asuka.soryu@nerv.jp Asuka Langley Soryu Donna 14
+pomme@spotify.com Claire Pommet Donna 24
+princess.diane@gov.uk Diane Spencer Donna 30
+fabio.cegar@polito.it Fabio Cegar Uomo 92
+fabio.garcea@polito.it Fabio Garcea Uomo 29
+fabrizio.lamberti@polito.it Fabrizio Lamberti Uomo 40
+guido.saracco@polito.it Guido Saracco Uomo 57
+ikari.shinji@nerv.jp Ikari Shinji Uomo 14
+lena.oxton@ow.blz Lena Oxton Donna 27
+lia.morra@polito.it Lia Morra Donna 40
+misato.katsuragi@nerv.jp Misato Katsuragi Donna 29
+reiI.ayanami@nerv.jp Rei Ayanami Donna 14
+reiII.ayanami@nerv.jp Rei Ayanami Donna 14
+reiIII.ayanami@nerv.jp Rei Ayanami Donna 14
+renato.olivetti@olivetti.it Renato Olivetti Uomo 78
+wednesday.addams@nvmore.us Wednesday Addams Donna 16
+yumi.arai@spotify.com Yumi Arai Donna 56
+
+Elenco immagini:
+
+1 fabio.garcea@polito.it sardegna2021.jpg ALTRO Instagram 30.0
+2 fabio.garcea@polito.it louvre_monalisa.jpg FACEB Viaggi
+3 fabio.garcea@polito.it profile_picture_tw.png ALTRO Twitter 81.3
+4 lia.morra@polito.it 20200517_165503.jpg FACEB Conferenze
+5 lia.morra@polito.it 20200821_190408.jpg FACEB Mostre
+6 lia.morra@polito.it 20200517_165503.jpg INSTA 56
+7 fabrizio.lamberti@polito.it profile_pic.png ALTRO Linkedin 50.5
+8 asuka.soryu@nerv.jp profile1_pic.png ALTRO Twitter 50.5
+9 asuka.soryu@nerv.jp profile2_pic.png ALTRO Tik Tok 50.5
+10 asuka.soryu@nerv.jp profile3_pic.png ALTRO Tumblr 50.5
+11 asuka.soryu@nerv.jp profile4_pic.png ALTRO YouTube 50.5
+12 asuka.soryu@nerv.jp insta_pic.png INSTA 150
+13 asuka.soryu@nerv.jp profile6_pic.png INSTA 120
+14 asuka.soryu@nerv.jp story3_selfie.png INSTA 104
+15 asuka.soryu@nerv.jp reel.jpg INSTA 134
+16 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+17 asuka.soryu@nerv.jp eva02_pic.png FACEB Vacanza in Giappone
+18 asuka.soryu@nerv.jp recupero_eva03.jpeg FACEB Vacanza Cittá del vaticano
+19 asuka.soryu@nerv.jp profile8_pic.png FACEB Album foto profilo
+20 reiIII.ayanami@nerv.jp dateWithAdam.jpeg FACEB hairColoring
+21 reiIII.ayanami@nerv.jp dateWithAdam.jpeg INSTA 14
+22 reiIII.ayanami@nerv.jp dateWithAdam.jpeg ALTRO TikTok 42.0
+23 wednesday.addams@nvmore.us img1.png FACEB ImmaginiProfilo
+24 wednesday.addams@nvmore.us img2.png INSTA 25
+25 wednesday.addams@nvmore.us img3.png ALTRO TikTok 34.45
+26 pomme@spotify.com pauline.svg ALTRO Spotify 23.01
+27 wednesday.addams@nvmore.us img1.png FACEB ImmaginiProfilo
+28 wednesday.addams@nvmore.us img2.png INSTA 25
+29 wednesday.addams@nvmore.us img3.png ALTRO TikTok 34.45
+30 pomme@spotify.com pauline.svg ALTRO Spotify 23.01
