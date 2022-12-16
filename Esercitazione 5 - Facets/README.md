@@ -4,6 +4,7 @@
 |-|
 |PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` O QUALSIASI ALTRA COSA AGGIUNTIVA CHE TI HO CHIESTO DI CREARE/MODIFICARE/TOGLIERE/DEFINIRE QUI SOTTO! |
 |SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :innocent:|
+|Un ottimo modo per ovviare a questo problema é quello di esportare il vostro progetto "di backup" e tenerlo da parte, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi|
 
 ***
 
@@ -75,13 +76,25 @@ public String toString() {
 > ***Note***
 >In realtà non è obbligatorio definire questi metodi toString(), se non li definisci ```BreakCode``` stamperà semplicemente i riferimenti di memoria degli oggetti, tuttavia è caldamente consigliato per avere un output che coincida con quello che ti ho lasciato qui
 
-## 3. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
+## 3. Scarica i file di input per testare la parte 4 (lettura da file di testo)
 
-Io personalmente mi faccio un package ```tests``` nel progetto, così ho tutto da parte e non mi dimentico di toglierlo alla consegna, ma puoi metterlo dove ti pare :blus:
+Il file da scaricare é ```inputBreakCode.txt``` che **da quanto mi ha detto un ragazzo in classe che ha chiesto a Garcea** dovrebbe coprire tutti gli erorri che bastano per i test (ovvero la gestione delle eccezioni ```FileNotFoundException```, ```IOException``` (checked exception obbligatiori per utilizzare gli stream di input/output dei file in java) e ```NumberFormatException``` (unchecked exception per gestire le eccezzioni lanciate dai metodi ```Double.parseDouble()``` e ```Integer.parseInt()```)
+
+> ***Note***
+> Magari il piú di voi non ha scritto le specifiche eccezioni che ho elencato ma ha usato la generica ```Exception```, va bene lo stesso non preoccupatevi
+
+Per i piú temerari ho preparato anche un file che si spinge oltre (personalmente mi fido fino a un certo punto dei passa parola, quindi nel dubbio io ho usato questo), fornendo righe appositamente studiate per dare altri problemi di conversione, potete trovarlo sempre in questa cartella con il nome ```inputBreakCodeHard.txt```
+
+> ***Warning***
+> Notate che l'output in console che fornisco é solo per l'input "normale", se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto
+
+## 4. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
+
+Io personalmente mi faccio un package ```tests``` nel progetto, così ho tutto da parte e non mi dimentico di toglierlo alla consegna, ma puoi metterlo dove ti pare
 
 ![Immagine di esempio di dove metto BreakCode](https://i.ibb.co/0qSyrN1/immagine.png)
 
-## 4. Avvialo e confronta i risultati, li trovi su outputBreakCode.txt 
+## 5. Avvialo e confronta i risultati, li trovi su outputBreakCode.txt 
 
 Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/) per confrontare i due file, molto comodo!
 
