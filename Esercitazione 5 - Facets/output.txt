@@ -98,5 +98,14 @@ Lettura da file:
 
 Elenco iscritti:
 
+andrea.bianchi@polito.it Andrea Bianchi Uomo 50
+mario.rossi@polito.it Mario Rossi Uomo 45
 
 Elenco immagini:
+
+1 mario.rossi@polito.it img1.png FACEB ImmaginiProfilo
+2 mario.rossi@polito.it img2.png FACEB ImmaginiProfilo
+3 mario.rossi@polito.it img1.png INSTA 55
+4 andrea.bianchi@polito.it img1.png INSTA 250
+5 andrea.bianchi@polito.it img2.png ALTRO Linkedin 23.0
+6 andrea.bianchi@polito.it img3.png ALTRO Twitter 19.0
