@@ -88,7 +88,7 @@ Per i piú temerari ho preparato anche un file che si spinge oltre (personalment
 Se volete usarlo *cambiate il parametro che passate in leggiDatiFacets con questo nuovo file* scorrendo in fondo al codice di BreakCode.java
 
 > ***Warning***
-> Notate che l'output in console che fornisco é solo per l'input "normale", se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto
+> Notate che l'output di breakCode che fornisco in questa cartella é solo per l'input "normale" (ovvero inputBreakCide.txt), se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto
 
 ## 4. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
 
