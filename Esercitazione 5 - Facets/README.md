@@ -78,7 +78,7 @@ public String toString() {
 
 ## 3. Scarica i file di input per testare la parte 4 (lettura da file di testo)
 
-Il file da scaricare é ```inputBreakCode.txt``` che **da quanto mi ha detto un ragazzo in classe che ha chiesto a Garcea** dovrebbe coprire tutti gli erorri che bastano per i test (ovvero la gestione delle eccezioni ```FileNotFoundException```, ```IOException``` (checked exception obbligatiori per utilizzare gli stream di input/output dei file in java) e ```NumberFormatException``` (unchecked exception per gestire le eccezzioni lanciate dai metodi ```Double.parseDouble()``` e ```Integer.parseInt()```)
+Il file da scaricare é ```inputBreakCode.txt``` che **da quanto mi ha detto un ragazzo in classe che ha chiesto a Garcea** dovrebbe coprire tutti gli errori che bastano per i test (ovvero la gestione delle eccezioni ```FileNotFoundException```, ```IOException``` (checked exception obbligatiori per utilizzare gli stream di input/output dei file in java) e ```NumberFormatException``` (unchecked exception per gestire le eccezzioni lanciate dai metodi ```Double.parseDouble()``` e ```Integer.parseInt()```)
 
 > ***Note***
 > Magari il piú di voi non ha scritto le specifiche eccezioni che ho elencato ma ha usato la generica ```Exception```, va bene lo stesso non preoccupatevi
@@ -88,7 +88,7 @@ Per i piú temerari ho preparato anche un file che si spinge oltre (personalment
 Se volete usarlo *cambiate il parametro che passate in leggiDatiFacets con questo nuovo file* scorrendo in fondo al codice di BreakCode.java
 
 > ***Warning***
-> Notate che l'output di breakCode che fornisco in questa cartella é solo per l'input "normale" (ovvero inputBreakCide.txt), se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto
+> Notate che l'output di breakCode che fornisco in questa cartella é solo per l'input "normale" (ovvero inputBreakCide.txt), se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto (oppure scrivetemi in priv)
 
 ## 4. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
 
