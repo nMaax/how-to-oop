@@ -4,7 +4,7 @@
 |-|
 |<p aign="center">PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` O QUALSIASI ALTRA COSA AGGIUNTIVA CHE TI HO CHIESTO DI CREARE/MODIFICARE/TOGLIERE/DEFINIRE QUI SOTTO! </p>|
 |<p aign="center">SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :innocent: </p>|
-|<p aign="center">Scusate per il terrorismo psicologico ma era una premessa necessaria, in ogni caso un ottimo modo per ovviare a questo problema é quello di <i>esportare un progetto "di backup" e tenerlo da parte</i>, prima di apporate queste modifiche, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi</p>|
+|<p aign="center">Scusate per il terrorismo psicologico ma era una premessa necessaria, in ogni caso un ottimo modo per ovviare a questo problema é quello di <i>esportare un progetto "di backup" e tenerlo da parte</i>, prima di apporate queste modifiche, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi. <br><br> Per i piú nerd potete anche farvi un branch con [git](https://git-scm.com/), eventualmente non usate la git bash direttamente per gestire i commit (fidatevi) ma optate per l'estensione [egit](https://www.eclipse.org/egit/) integrata in Eclipse. (Se questo ultimo paragrafo vi é sembrata aramaico antico ignoratelo completamente)</p>|
 
 ***
 
