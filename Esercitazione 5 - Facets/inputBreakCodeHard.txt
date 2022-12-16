@@ -1,0 +1,60 @@
+Provo a scrivere
+	Righe completamente a caso (tipo questa)
+	Righe vuote (come quella tra questo elenco e i dati)
+	Righe vuote all'inizio, in mezzo e alla fine del file
+	 
+	Spazi all'inizio, in mezzo e alla fine delle righe
+	Righe ripetute (cerco di iscrivere la stessa persona/immagine piú volte)
+	Righe con iscritti giá esistenti
+	Righe con prima sottostringa invalida
+	Righe con tipi social invalidi
+	Righe con componenti non coerenti
+	Righe dove passo una quantitá non idonea di sottostringhe
+	
+
+________________________________________________________________
+
+ISC;wednesday.addams@nvmore.us;Wednesday;Addams;Donna;16
+ISC;princess.diane@gov.uk;Diane;Spencer;Donna;30
+IMM;wednesday.addams@nvmore.us;img1.png;FACEB;ImmaginiProfilo
+IMM;wednesday.addams@nvmore.us;img2.png;FACEB;ImmaginiProfilo
+
+Squid game zio pera
+
+IMM;wednesday.addams@nvmore.us;dance_dance_dance.mp4;ALTRO;TikTok;42  
+IMM;wednesday.addams@nvmore.us;img1.png;INSTA;55
+IMM;princess.diane@gov.uk;img1.png;INSTA;250
+IMM;princess.diane@gov.uk;img2.png;ALTRO;Linkedin;23
+IMM;princess.diane@gov.uk;img3.png;ALTRO;Twitter;19
+
+--> Righe con iscritti giá esistenti
+ISC;wednesday.addams@nvmore.us;Mario;Rossi;Uomo;45
+ISC;pomme@spotify.com;Claire;Pommet;Donna;24
+
+--> Righe con iscritti non esistenti
+ISC;nonesisto@mail.com;Mario;Rossi;Uomo;45
+IMM;whoami@gov.uk;img3.png;ALTRO;Twitter;19
+
+--> Righe con prima sottostringa invalida
+SIUM;non-dovresti-salvarmi@no-reply.us;nessuno;diImportante;Uomo;42
+SIUM;wednesday.addams@nvmore.us;tipoErrato.png;INSTA;34
+
+--> Righe con tipi social invalidi
+IMM;wednesday.addams@nvmore.us;eye.png;Di certo questo non é un social adattto;SIUM;34.00
+
+--> Righe con componenti non coerenti
+IMM;wednesday.addams@nvmore.us;eye.png;pocheComponenti;INSTA;numeroDiLikeNonIdoneo
+IMM;wednesday.addams@nvmore.us;eye.png;pocheComponenti;ALTRO;nomeSocial;DimensioneImmagine
+
+--> Righe dove passo una quantitá non idonea di sottostringhe
+IMM;wednesday.addams@nvmore.us;eye.png;pocheComponenti;FACEB
+IMM;wednesday.addams@nvmore.us;eye.png;pocheComponenti;ALTRO;Social
+IMM;wednesday.addams@nvmore.us;eye.png;pocheComponenti;INSTA
+
+--> Spazi all'inizio, in mezzo e all fine delle righe
+ IMM;wednesday.addams@nvmore.us;thing.png;FACEB;NevermoreSemester
+IMM;wednesday.addams@nvmore.us;questo --> ( ) <-- é uno spazio;ALTRO;TikTok;34
+IMM;wednesday.addams@nvmore.us;thing.png;FACEB;NevermoreSemester 
+  
+________________________________________________________________
+  

@@ -1,0 +1,7 @@
+ISC;wednesday.addams@nvmore.us;Wednesday;Addams;Donna;16
+ISC;princess.diane@gov.uk;Diane;Spencer;Donna;30
+IMM;wednesday.addams@nvmore.us;img1.png;FACEB;ImmaginiProfilo
+IMM;wednesday.addams@nvmore.us;img2.png;INSTA;25
+IMM;wednesday.addams@nvmore.us;img3.png;ALTRO;TikTok;34.45
+IMM;princess.diane@gov.uk;do-not-save.jpeg;INSTA;QUESTO-NON-E-UN-INTERO
+IMM;princess.diane@gov.uk;do-not-save.jpeg;ALTRO;Twitter;QUESTO-NON-E-UN-DOUBLE
