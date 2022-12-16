@@ -4,7 +4,7 @@
 |-|
 |PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` O QUALSIASI ALTRA COSA AGGIUNTIVA CHE TI HO CHIESTO DI CREARE/MODIFICARE/TOGLIERE/DEFINIRE QUI SOTTO! |
 |SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :innocent:|
-|Un ottimo modo per ovviare a questo problema é quello di esportare il vostro progetto "di backup" e tenerlo da parte, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi|
+|Un ottimo modo per ovviare a questo problema é quello di esportare un progetto "di backup" e tenerlo da parte, prima di apporate queste modifiche, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi|
 
 ***
 
@@ -74,7 +74,7 @@ public String toString() {
 ```
 
 > ***Note***
->In realtà non è obbligatorio definire questi metodi toString(), se non li definisci ```BreakCode``` stamperà semplicemente i riferimenti di memoria degli oggetti, tuttavia è caldamente consigliato per avere un output che coincida con quello che ti ho lasciato qui
+> In realtà non è obbligatorio definire questi metodi toString(), se non li definisci ```BreakCode``` stamperà semplicemente i riferimenti di memoria degli oggetti, tuttavia è caldamente consigliato per avere un output che coincida con quello che ti ho lasciato qui.
 
 ## 3. Scarica i file di input per testare la parte 4 (lettura da file di testo)
 
@@ -88,7 +88,9 @@ Per i piú temerari ho preparato anche un file che si spinge oltre (personalment
 Se volete usarlo *cambiate il parametro che passate in leggiDatiFacets con questo nuovo file* scorrendo in fondo al codice di BreakCode.java
 
 > ***Warning***
-> Notate che l'output di breakCode che fornisco in questa cartella é solo per l'input "normale" (ovvero inputBreakCide.txt), se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto (oppure scrivetemi in priv)
+> Notate che l'output di breakCode che fornisco in questa cartella é solo per l'input "normale" (ovvero inputBreakCode.txt), 
+>
+> Se vuoi assicurarti che anche con ```inputBreakCodeHard.txt``` funzioni aprilo direttamente e seguite il codice che ho scritto (oppure scrivetemi in priv)
 
 ## 4. Copia e incolla il codice di BreakCode.java dove vuoi nel tuo progetto
 
@@ -101,5 +103,8 @@ Io personalmente mi faccio un package ```tests``` nel progetto, così ho tutto d
 Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/) per confrontare i due file, molto comodo!
 
 > ***Note***
-> **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! E' normale che ci siano delle differenze, non tutti scriviamo il codice nella stessa identica maniera, e io pure posso aver sbagliato! (Nel caso scrivimi pure)
+> **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! 
+>
+> E' normale che ci siano delle differenze, non tutti scriviamo il codice nella stessa identica maniera, e io pure posso aver sbagliato! (Nel caso scrivimi pure)
+>
 > Nota come ogni step sia appositamente commentato con dei print in console, leggili, ragionaci e riscrivili eventualmente! 
