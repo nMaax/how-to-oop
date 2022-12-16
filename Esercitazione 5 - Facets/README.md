@@ -85,6 +85,8 @@ Il file da scaricare é ```inputBreakCode.txt``` che **da quanto mi ha detto un 
 
 Per i piú temerari ho preparato anche un file che si spinge oltre (personalmente mi fido fino a un certo punto dei passa parola, quindi nel dubbio io ho usato questo), fornendo righe appositamente studiate per dare altri problemi di conversione, potete trovarlo sempre in questa cartella con il nome ```inputBreakCodeHard.txt```
 
+Se volete usarlo *cambiate il parametro che passate in leggiDatiFacets con questo nuovo file* scorrendo in fondo al codice di BreakCode.java
+
 > ***Warning***
 > Notate che l'output in console che fornisco é solo per l'input "normale", se volete assicurarvi che anche con inputBreakCodeHard.txt funzioni apritelo direttamente e seguite il codice che ho scritto
 
