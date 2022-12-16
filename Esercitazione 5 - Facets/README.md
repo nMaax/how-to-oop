@@ -2,9 +2,9 @@
 
 | :exclamation: :exclamation: :exclamation: MOLTO IMPORTANTE, IGNORA A TUO RISCHIO E PERICOLO :exclamation: :exclamation: :exclamation: |
 |-|
-|PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` O QUALSIASI ALTRA COSA AGGIUNTIVA CHE TI HO CHIESTO DI CREARE/MODIFICARE/TOGLIERE/DEFINIRE QUI SOTTO! |
-|SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :innocent:|
-|Un ottimo modo per ovviare a questo problema é quello di esportare un progetto "di backup" e tenerlo da parte, prima di apporate queste modifiche, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi|
+|<p aign="center">PRIMA DI CONSEGNARE RIMUOVI ```BREAKCODE```, IL ```FILE TXT``` E I METODI ```toString()``` O QUALSIASI ALTRA COSA AGGIUNTIVA CHE TI HO CHIESTO DI CREARE/MODIFICARE/TOGLIERE/DEFINIRE QUI SOTTO! </p>|
+|<p aign="center">SE PER UN QUALCHE MOTIVO NON COMPILA E TI BLOCCA TUTTI I TEST DEL CODICE NON VOGLIO SENTIRE CAZZI, LA RESPONSABILITA' E' SOLO TUA :innocent: </p>|
+|<p aign="center">Un ottimo modo per ovviare a questo problema é quello di esportare un progetto "di backup" e tenerlo da parte, prima di apporate queste modifiche, cosí alle brutte ricaricate quello e siete sicur* di non avere problemi</p>|
 
 ***
 
@@ -103,8 +103,6 @@ Io personalmente mi faccio un package ```tests``` nel progetto, così ho tutto d
 Ti consiglio di utilizzare [DiffChecker](https://www.diffchecker.com/) per confrontare i due file, molto comodo!
 
 > ***Note***
-> **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! 
->
-> E' normale che ci siano delle differenze, non tutti scriviamo il codice nella stessa identica maniera, e io pure posso aver sbagliato! (Nel caso scrivimi pure)
+> **E' normale che tutto non coincida alla perfezione**, prima di andare in panic mode pensando di aver sbagliato leggi il codice che ho scritto e controlla se l'output che hai te sia comunque logicamente corretto, quello è l'importante! Non tutti scriviamo il codice nella stessa identica maniera, e io pure posso aver sbagliato! (Nel caso scrivimi pure)
 >
 > Nota come ogni step sia appositamente commentato con dei print in console, leggili, ragionaci e riscrivili eventualmente! 
