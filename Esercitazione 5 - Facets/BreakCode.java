@@ -37,7 +37,7 @@ public class BreakCode {
 		listReports();
 	}
 	
-	//TODO Define tests of part 4
+	//TODO Define tests of part 4 (mancano ancora le casistiche specifiche che garcea deve chiarire a lezione)
 	public static void test4() {
 		sopln("<-- TEST 4 -->\n");
 		readTxtData();
@@ -405,6 +405,39 @@ public class BreakCode {
 	
 	public static void readTxtData() {
 		sopln("* * * LEGGO IL FILE TXT * * *\n");
+		
+		sopln("Leggo un file che non esiste");
+		f.leggiDatiFacets("FileInesistente.txt");
+		sopln();
+		
+		sopln("Leggo un file che esiste, in cui i dati sono appositamente scritti per bucare il codice");
+		f.leggiDatiFacets("inputBreakCode.txt");
+		sopln();
+		
+		System.out.println("\nElenco iscritti:\n");
+		LinkedList<Iscritto> elencoIscritti = new LinkedList<>(f.elencoIscritti());
+		for(Iscritto ii : elencoIscritti)
+			sopln(f.descriviIscritto(ii.getEmail()));
+		
+		System.out.println("\nElenco immagini:\n");
+		LinkedList<Immagine> elencoImmagini = new LinkedList<>(f.elencoImmaginiPerCodice());
+		for(Immagine ei : elencoImmagini)
+			sopln(f.descriviImmagine(ei.getCodiceImmagine()));
+		sopln();
+		
+		sopln("Leggo di nuovo dallo stesso file, i dati si duplicano?");
+		f.leggiDatiFacets("inputBreakCode.txt");
+		
+		System.out.println("\nElenco iscritti:\n");
+		elencoIscritti = new LinkedList<>(f.elencoIscritti());
+		for(Iscritto ii : elencoIscritti)
+			sopln(f.descriviIscritto(ii.getEmail()));
+		
+		System.out.println("\nElenco immagini:\n");
+		elencoImmagini = new LinkedList<>(f.elencoImmaginiPerCodice());
+		for(Immagine ei : elencoImmagini)
+			sopln(f.descriviImmagine(ei.getCodiceImmagine()));
+		
 		sopln();
 	}
 
