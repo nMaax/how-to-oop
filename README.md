@@ -235,17 +235,17 @@ public class BreakCode {
 [![Esempio di todo.txt](https://i.postimg.cc/VvFRGcPR/immagine.png)](https://postimg.cc/Fk73z8Rd)
 
 ### 7. Prima di consegnare:
-1. Effettua un backup esportando il file zip del progetto
-2. Rimetti le varie righe spezzate su una sola riga (per non avere problemi nei test)
-3. Rileggi il pdf per vedere se hai rispettato tutte le specifiche
-4. Ricontrolla che le firme dei metodi coincidano con lo scheletro (usa bones.txt del passo 1)
-5. Fai un ultimo run di BreakCode, myMain e Esempio
-6. Togli la roba inutile
-	1. Commenti di troppo
-	2. Metodi inutilzzati (non togliere i setter e getter inutilizzati, magari ti serviranno nella riconsegna)
-	3. I file extra dove magari hai scritto e usato caratteri non riconosciuti
-7. Runna per l'ultimissima volta Esempio (unico main rimasto)
-8. Consegna
+- [ ] Effettua un backup esportando il file zip del progetto
+- [ ] Rimetti le varie righe spezzate su una sola riga (per non avere problemi nei test)
+- [ ] Rileggi il pdf per vedere se hai rispettato tutte le specifiche
+- [ ] Ricontrolla che le firme dei metodi coincidano con lo scheletro (usa bones.txt del passo 1)
+- [ ] Fai un ultimo run di BreakCode, myMain e Esempio
+- [ ] Togli la roba inutile
+	- [ ] Commenti di troppo
+	- [ ] Metodi inutilzzati (non togliere i setter e getter inutilizzati, magari ti serviranno nella riconsegna)
+	- [ ] I file extra dove magari hai scritto e usato caratteri non riconosciuti
+- [ ] Runna per l'ultimissima volta Esempio (unico main rimasto)
+- [ ] Consegna
 
 ## DRY, KISS and SOLID Principles:
 
