@@ -251,7 +251,7 @@ public class BreakCode {
 
 [DRY, KISS & SOLID explained in Godot](https://youtube.com/playlist?list=PLJ690cxlZTgK6j3wpoI9PBopRLNZc5QPv)
 	
-### DRY
+### DRY (Don't Repeat Yourself) 
 
 [Spiegazione di Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)	
 
@@ -266,7 +266,7 @@ _General Rule:_	```200 lines per class, 20-30 per function, 20-50 per method (sp
 			
 **OBJ**: _Making Code Isolation and Code Reusability_
 	
-### KISS
+### KISS (Keep It Simple, Stupid!)
 
 [Spiegazione di Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
