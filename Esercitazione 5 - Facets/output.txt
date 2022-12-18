@@ -89,7 +89,7 @@ Elenco report per iscritto
 Report:1
 ImageNet_class:seashore(98.9%) 20221202 11:30:00
 Report:2
-ImageNet_class:seashore(98.9%) 20221202 11:30:00
+ImageNet_class:sunglasses(89.9%) 20221202 11:35:00
 
 /****** R4 ******/
 
