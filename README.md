@@ -5,6 +5,13 @@ Durante la scrittura del codice mantieni una scrittura ordinata, segui il format
 
 **Importante**: usa la documentazione fino a *Java SE 8* compreso, la puoi trovare [qui](https://docs.oracle.com/javase/8/docs/)
 
+>***Warning***
+>
+> Il giorno dell'esame ovviamente non seguire tutti questi passaggi ma un alternativa piú "snella" che ti permetta di rientrare nell 2 ore!
+>
+> Personalmente io alleggerisco questa metodologia (1) evitando la creazione di myMain, breakCode e dataManipulation, li creo solo se necessari; (2) non copia-incollo i comandi del pdf nella javadoc, tuttavia *faccio comunque lo pseudocodice, é **inevitabile***; (3) unisco la fase 3 e 4 in un solo step; (4) cerco di bucare il codice solo se mi avanza tempo; (5) non ottimizzo il codice a fine programma, anzi, eventualmente lo sporco se mi rende la vita piú facile; (6) rompo il vincolo DRY e KISS se necessario; (7) alla consegna mi limito solo a ricontrollare il pdf e le firme dei metodi e rimuovere breakCode e myMain (e gli eventuali file a loro relativi).
+
+---
 
 ### 0. Preparazione materiale necessario
 Copia lo scheletro e salvalo in un file ```bones.txt``` interno al progetto
