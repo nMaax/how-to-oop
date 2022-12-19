@@ -1,0 +1,8 @@
+ISC;mario.rossi@polito.it;Mario;Rossi;Uomo;45
+ISC;andrea.bianchi@polito.it;Andrea;Bianchi;Uomo;50
+IMM;mario.rossi@polito.it;img1.png;FACEB;ImmaginiProfilo
+IMM;mario.rossi@polito.it;img2.png;FACEB;ImmaginiProfilo
+IMM;mario.rossi@polito.it;img1.png;INSTA;55
+IMM;andrea.bianchi@polito.it;img1.png;INSTA;250
+IMM;andrea.bianchi@polito.it;img2.png;ALTRO;Linkedin;23
+IMM;andrea.bianchi@polito.it;img3.png;ALTRO;Twitter;19

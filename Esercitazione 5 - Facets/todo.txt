@@ -1,0 +1,32 @@
+Domande
+
+v in cercaIscrittoPerNomeCognome le sottostringhe in parametro devono essere entrambe associate a nome e cognome o ne basta solo una?
+	Entrambe
+v in elencoImmaginiPerTipologia() mando le immagini di facebook e altro social nell'ordine di codice?
+	Ordine di inserimento	
+v per elencoImmmaginiAltroSocial è giusto castare in intero i double nel compareTo()? 
+	si
+v per elencoImmaginiAltroSocial non dovrebbe restituire Collection<ImmagineAltroSocial> invece di <Immagine>?
+	no
+v nello scheletro di reports vuole un getCodice come stringa, posso usare gli interi?
+	casta
+	
+V Il formato delle linee del file.txt é severo? 
+  Nel senso: é esattamente come descritto o possiamo rielaborarlo per farlo passare?
+	V Se una riga del file.txt ha piú di 4-5 componenti passa lo stesso? non te ne preoccupare
+	V Si deve usare .trim()? O togliere gli spazi in mezzo? no
+
+V bisogna controllare il formato del timestamp?
+	no ma controlla la dimensione (17char)
+v cosa devo restituire in nuovoReport se l'utente non esiste?
+	quello che vogliamo, null va bene ma richiedi a garcea
+
+***
+
+. perchè java vuole che gestita gli errori definit "da me" e non quelli di defualt creati da loro (perché esiste differenza tra checked e unchecked)?
+
+. sperimenta la classe comparator e le classi comparatrici
+. posso mettere chiavi uguali in una mappa?
+. impara le HashMap, HashSet, HashLists, HashCode e Hashing in Generale
+. prova a implementare un compareTo() di stringhe per i Timestamps
+. prova a implementare gli errori su breakCode
