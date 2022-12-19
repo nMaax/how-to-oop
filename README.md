@@ -7,7 +7,7 @@ Durante la scrittura del codice mantieni una scrittura ordinata, segui il format
 
 >***Warning***
 >
-> Il giorno dell'esame ovviamente non seguire tutti questi passaggi ma un alternativa piú "snella" che ti permetta di rientrare nell 2 ore!
+> Il giorno dell'esame ovviamente non seguire tutti questi passaggi ma un alternativa piú "snella" che ti permetta di rientrare nelle 2 ore!
 >
 > Personalmente io alleggerisco questa metodologia (1) evitando la creazione di myMain, breakCode e dataManipulation, li creo solo se saranno necessari, sul momento; (2) non copia-incollo i comandi del pdf nella javadoc, tuttavia *faccio comunque lo pseudocodice, é **inevitabile*** e utilizzo **massivamente** i commenti //TODO; (3) unisco la fase 3 e 4 in un solo step; (4) cerco di bucare il codice solo se mi avanza tempo; (5) non ottimizzo il codice a fine programma, anzi, eventualmente lo sporco se mi rende la vita piú facile; (6) rompo il vincolo DRY e KISS se necessario; (7) alla consegna mi limito solo a ricontrollare il pdf e le firme dei metodi e rimuovere breakCode e myMain (e gli eventuali file a loro relativi).
 
